@@ -1,11 +1,18 @@
 const response = require('../../helper/response')
 
 module.exports = {
-    getAlldata: (req,res) => {
+    login: () => {
         try {
-            response.success(res, 200,  "ini dari getall data", [])
+            
         } catch (error) {
-            response.success(res, 500, "ini dari getall error", [])
+            
+        }
+    },
+    register: () => {
+        try {
+            
+        } catch (error) {
+            
         }
     }
 }
